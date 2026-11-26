@@ -1,0 +1,89 @@
+# ==================== Go ====================
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+out/
+coverage.html
+
+# Dependency directories
+# vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# ==================== Node / JS ====================
+logs
+*.log
+node_modules/
+jspm_packages/
+*.tsbuildinfo
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.cache/
+.parcel-cache
+.next
+.nuxt
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# ==================== Build output ====================
+dist/
+build/
+
+# ==================== Env & secrets ====================
+.env*
+*.env*
+*.pem
+*.key
+
+# ==================== Databases ====================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==================== Temp files ====================
+tmp/
+temp/
+.tmp/
+*.tmp
+*.temp
+
+# ==================== IDE ====================
+.idea/
+.vscode/
+
+# ==================== OS ====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
